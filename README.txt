@@ -1,4 +1,6 @@
 Student Management System
+
+GitHub Repository: https://github.com/TomasTouma/Student-Management-System
 =========================
 
 Project Overview
@@ -44,6 +46,13 @@ The application connects to a MySQL database with the following settings:
 - Username: root
 - Password: root
 
+Database Setup:
+--------------
+1. Import the database schema:
+   mysql -u root -p < database/schema.sql
+   
+2. Or manually create the database and import schema.sql from the database folder
+
 Required Database Tables
 ------------------------
 1. student
@@ -64,6 +73,14 @@ Installation & Setup
 3. Import the provided SQL schema to create the required tables
 4. Update database connection details in StudentForm.java if different from default
 5. Compile and run the application
+
+GitHub Installation:
+-------------------
+1. Clone the repository:
+   git clone https://github.com/TomasTouma/Student-Management-System.git
+   
+2. Navigate to the project directory:
+   cd Student-Management-System
 
 How to Use
 ----------
@@ -125,3 +142,13 @@ License
 
 Support
 -------
+
+Repository Information
+----------------------
+- GitHub: https://github.com/TomasTouma/Student-Management-System
+- Main Branch: main
+- Last Updated: 03/10/2025
+
+Contributing
+------------
+Feel free to fork this repository and submit pull requests for improvements.
