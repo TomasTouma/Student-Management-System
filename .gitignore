@@ -1,0 +1,58 @@
+# NetBeans specific
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml
+/build/
+/dist/
+/.ant-targets-build.xml
+
+# Compiled class files
+*.class
+
+# IDE files
+*.iml
+.idea/
+*.iws
+*.ipr
+.nb-gradle/
+
+# Log files
+*.log
+
+# Database files (exclude actual database files, keep only SQL scripts)
+*.db
+*.sqlite
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Eclipse specific
+.settings/
+bin/
+.metadata/
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# JAR files in dist (since they can be rebuilt)
+/dist/*.jar
+
+# Build artifacts
+/build/classes/
+/build/empty/
+/build/generated-sources/
