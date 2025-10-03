@@ -139,6 +139,7 @@ Troubleshooting
 License
 -------
 
+This project is available for educational and demonstration purposes. Please ensure proper attribution for any reuse or modification.
 
 Support
 -------
